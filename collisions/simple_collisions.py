@@ -75,7 +75,10 @@ def main(n, verbose=True):
 
     return collisions
 
-#main(7)
+main(5)
+
+# Timing function
+# Time taken increases by roughly a factor of 10 for each extra significant figure.
 for n in range(1, 10):
 
     start = time.time()
