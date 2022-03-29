@@ -1,1 +1,2 @@
-maths
+Some random maths investigations/implementations for my super curricular activities for applications to competitive universities (and for fun!).
+Lots may be WIP and undocumented but I will try to add descriptions about what everything does.
