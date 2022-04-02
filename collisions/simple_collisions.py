@@ -12,7 +12,7 @@ def col_p(vec, mass_vector):
     m_a = mass_vector[0]
     m_b = mass_vector[1]
     
-    # Found by substituting the formula for restitution into the forumula for conservation of momentum to cancel out v_b, then rearranging for v_a
+    # Found by substituting the formula for restitution into the formula for conservation of momentum to cancel out v_b, then rearranging for v_a
     final_velocity_a = (m_a*u_a + 2*m_b*u_b - m_b*u_a)/(m_a+m_b)
     # Same as above, but cancel out v_a and rearrange for v_b
     final_velocity_b = (m_b*u_b + 2*m_a*u_a - m_a*u_b)/(m_a+m_b)
